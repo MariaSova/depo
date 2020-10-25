@@ -1,0 +1,62 @@
+.peresvet {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: rem(80px);
+}
+
+.peresvet__tit {
+    margin-bottom: rem(80px);
+}
+
+.peresvet__content {
+    display: flex;
+    margin-bottom: rem(50px);
+}
+
+.peresvet__block-big {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.peresvet__title {
+    width: 110%;
+}
+
+.peresvet__line {
+    width: 130%;
+    margin-bottom: rem(15px);
+}
+
+.peresvet__list {
+    margin-bottom: rem(45px);
+}
+
+.peresvet__item {
+    display: flex;
+    margin-bottom: rem(20px);
+}
+
+.peresvet__pictures {
+    display: flex;
+}
+.peresvet__myoffice {
+    margin-right: rem(53px);
+}
+
+.peresvet__block-small {
+    
+}
+
+.peresvet__content-small {
+    display: flex;
+    flex-direction: column;
+}
+
+.peresvet__text {
+    margin-bottom: rem(20px);
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+}

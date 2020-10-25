@@ -1,0 +1,41 @@
+.experience {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: rem(80px);
+}
+
+.experience__title {
+    margin-top: rem(-40px);
+    margin-bottom: rem(80px);
+}
+
+.experience__content {
+    display: flex;
+}
+
+.experiment__content {
+    width: 50%;
+}
+
+.practice__title {
+    margin-bottom: rem(45px);
+}
+
+.practice__list {
+    width: 105%;
+}
+
+.practice__item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: rem(20px);
+}
+
+.practice__pic {
+    width: rem(10px);
+    height: rem(10px);
+    margin-right: rem(10px);
+    margin-top: rem(5px);
+}
+
+

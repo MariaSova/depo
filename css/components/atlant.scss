@@ -1,0 +1,27 @@
+.atlant {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: rem(130px);
+}
+
+.atlant__title {
+    width: 110%;
+    margin-bottom: rem(20px);
+}
+
+.atlant__image {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin-left: rem(70px);
+}
+
+.atlant__text {
+    margin-bottom: rem(20px);
+    width: 95%;
+}
+
+.atlant__item {
+    display: flex;
+    margin-bottom: rem(20px);
+}

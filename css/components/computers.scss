@@ -1,0 +1,65 @@
+.computers {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: rem(70px);
+}
+
+.computers__title {
+    margin-bottom: rem(50px);
+}
+
+.title {
+    font-size: rem(48px);
+    line-height: rem(55px);
+    font-weight: 700;
+    text-transform: uppercase;
+    background: linear-gradient(to right, #3759e4, #d297d4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.decor {
+    font-size: rem(21px);
+    line-height: rem(24px);
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #6360C0;
+}
+
+.computers__content {
+    display: flex;
+}
+
+.one {
+    width: 55%;
+}
+
+.two {
+    height: 100%;
+}
+
+.computer__t {
+    font-size: rem(21px);
+    line-height: rem(24px);
+}
+
+.computer__text-big {
+    margin-bottom: rem(50px);
+}
+
+.computer__line {
+    margin-bottom: rem(37px);
+    width: 110%;
+}
+
+.comp__item {
+    display: flex;
+    align-items: flex-start;
+
+    margin-bottom: rem(20px);
+}
+
+.item {
+    margin-right: rem(10px);
+    margin-top: rem(5px);
+}
