@@ -80,41 +80,39 @@ img {
 
 .hero {
   min-height: 36.1111111111rem;
-  margin-bottom: 2.2222222222rem;
+  margin-top: 5.2777777778rem;
+  margin-bottom: 8.8888888889rem;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
 }
 
 .hero__container {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 
 .hero__title-section {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 8.8888888889rem;
-}
-.hero__title-section::before {
-  content: url("../../images/010.png");
-  position: absolute;
-  left: 0;
-}
-.hero__title-section::after {
-  content: url("../../images/1001.png");
-  position: absolute;
-  right: 0;
+  min-width: 30.5555555556rem;
 }
 
 .hero__title {
   font-size: 2rem;
   font-weight: 700;
   text-transform: uppercase;
-  margin-bottom: 6.1111111111rem;
+  margin-bottom: 1.6666666667rem;
 }
 
 .hero__logo {
-  margin-bottom: 3.6111111111rem;
+  font-size: 1.3333333333rem;
+  line-height: 1.5333333333rem;
+  margin-bottom: 1.3333333333rem;
 }
 
 .hero__link {
@@ -123,96 +121,43 @@ img {
   color: #0079c0;
 }
 
-.header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  color: #fff;
-  height: 8.3333333333rem;
-  width: 100%;
-  background: #0079c0;
-  font-size: 0.7777777778rem;
-  text-transform: uppercase;
-  margin-bottom: 5.2777777778rem;
+.picture {
+  overflow: hidden;
+  transform: translateX(-100px);
+  max-width: 31.8888888889rem;
 }
 
-.menu {
-  margin-right: 4.4444444444rem;
-}
-
-.menu__list {
-  display: flex;
-  align-items: center;
-}
-
-.menu__item {
-  margin-right: 1.6666666667rem;
-}
-.menu__item:last-child {
-  margin-right: 0;
-}
-
-.menu__link {
-  text-decoration: none;
+.picture1 {
+  overflow: hidden;
+  transform: translateX(100px);
+  max-width: 34rem;
 }
 
 .partners {
   background: #fff;
-  width: 6.7777777778rem;
-  height: 8.3333333333rem;
   color: #0079C0;
+  width: 6.7777777778rem;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.footer {
+.row {
   display: flex;
-  height: 6.6666666667rem;
-  width: 100%;
-}
-.footer::after {
-  content: url("../../images/footer_img.png");
-  position: absolute;
-  bottom: 0;
-  left: 0;
-}
-
-.footer__cont {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  top: 0;
-  display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 
-.footer__content {
-  display: flex;
-  align-items: center;
-  position: relative;
-  color: #fff;
-  font-size: 1.3333333333rem;
-  line-height: 1.5rem;
-  text-transform: uppercase;
+.col-12 {
+  margin-left: 15rem;
 }
 
-.footer__content-text {
-  display: flex;
-}
-
-.logo__footer {
+.logo__footer-astra {
   margin-left: 13.8888888889rem;
-  margin-right: 13.8888888889rem;
 }
 
-.footer__text {
-  margin-right: 5.5555555556rem;
-}
-
-.footer__bg {
-  width: 200%;
+.footer__item {
+  margin-right: 1.6666666667rem;
 }
 
 .computers {
@@ -255,18 +200,16 @@ img {
   height: 100%;
 }
 
-.computer__t {
+.computer__text-big {
+  margin-bottom: 2.7777777778rem;
+  margin-right: 2.2222222222rem;
   font-size: 1.1666666667rem;
   line-height: 1.3333333333rem;
 }
 
-.computer__text-big {
-  margin-bottom: 2.7777777778rem;
-}
-
 .computer__line {
   margin-bottom: 2.0555555556rem;
-  width: 110%;
+  min-width: 100%;
 }
 
 .comp__item {
@@ -287,7 +230,6 @@ img {
 }
 
 .experience__title {
-  margin-top: -2.2222222222rem;
   margin-bottom: 4.4444444444rem;
 }
 
@@ -303,8 +245,12 @@ img {
   margin-bottom: 2.5rem;
 }
 
+.block-one {
+  margin-bottom: 40px;
+}
+
 .practice__list {
-  width: 105%;
+  min-width: 105%;
 }
 
 .practice__item {
@@ -314,7 +260,7 @@ img {
 }
 
 .practice__pic {
-  width: 0.5555555556rem;
+  min-width: 0.5555555556rem;
   height: 0.5555555556rem;
   margin-right: 0.5555555556rem;
   margin-top: 0.2777777778rem;
@@ -370,6 +316,7 @@ img {
 .peresvet__content-small {
   display: flex;
   flex-direction: column;
+  line-height: 1.15rem;
 }
 
 .peresvet__text {
@@ -395,6 +342,7 @@ img {
   align-items: center;
   width: 80%;
   margin-left: 3.8888888889rem;
+  margin-bottom: 1.3888888889rem;
 }
 
 .atlant__text {
