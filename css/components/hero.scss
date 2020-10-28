@@ -1,14 +1,23 @@
 .hero {
+
     min-height: rem(650px);
 
-    margin-bottom: rem(40px);
+    margin-top: rem(95px);
+    margin-bottom: rem(160px);
+
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+
 }
 
 
 .hero__container {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     
 }
 
@@ -17,18 +26,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: rem(160px);
-
-    &::before {
-        content: url("../../images/010.png");
-        position: absolute;
-        left: 0;
-    }
-    &::after {
-        content: url("../../images/1001.png");
-        position: absolute;
-        right: 0;
-    }
+    
+    min-width: rem(550px);
 
 }
 
@@ -37,11 +36,13 @@
     font-size: rem(36px);
     font-weight: 700;
     text-transform: uppercase;
-    margin-bottom: rem(110px);
+    margin-bottom: rem(30px);
 }
 
 .hero__logo {
-    margin-bottom: rem(65px);
+    font-size: rem(24px);
+    line-height: rem(27.6px);
+    margin-bottom: rem(24px);
 }
 
 .hero__link {
@@ -50,3 +51,18 @@
     color: #0079c0;
 }
 
+
+.picture {
+    overflow: hidden;
+    transform: translateX(-100px);
+    max-width: rem(574px);
+   
+
+}
+
+.picture1 {
+    overflow: hidden;
+    transform: translateX(100px);
+    max-width: rem(612px);
+    
+}

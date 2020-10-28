@@ -38,18 +38,17 @@
     height: 100%;
 }
 
-.computer__t {
+
+.computer__text-big {
+    margin-bottom: rem(50px);
+    margin-right: rem(40px);
     font-size: rem(21px);
     line-height: rem(24px);
 }
 
-.computer__text-big {
-    margin-bottom: rem(50px);
-}
-
 .computer__line {
     margin-bottom: rem(37px);
-    width: 110%;
+    min-width: 100%;
 }
 
 .comp__item {
