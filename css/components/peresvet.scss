@@ -6,17 +6,60 @@
 
 .peresvet__tit {
     margin-bottom: rem(80px);
+
+    @include tablets {
+        font-size: rem(38px);
+        line-height: 1.42;
+        text-transform: none;
+        margin-bottom: rem(20px);
+    }
+
+    @include phones {
+        font-size: rem(35px);
+        line-height: 1.42;
+        text-transform: none;
+    }
 }
 
 .peresvet__content {
     display: flex;
     margin-bottom: rem(50px);
+
+    @include tablets {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-bottom: rem(20px);
+        width: 95%;
+    }
+
+    @include phones {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 95%;
+    }
 }
 
 .peresvet__block-big {
     display: flex;
     flex-direction: column;
     width: 50%;
+
+    @include tablets {
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        margin-bottom: rem(20px);
+    }
+
+    @include phones {
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+    }
 }
 
 .peresvet__title {
@@ -26,6 +69,11 @@
 .peresvet__line {
     width: 130%;
     margin-bottom: rem(15px);
+
+    @include tablets {
+        width: 95%;
+    }
+
 }
 
 .peresvet__list {

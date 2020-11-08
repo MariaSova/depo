@@ -7,6 +7,20 @@
 .atlant__title {
     width: 110%;
     margin-bottom: rem(20px);
+
+    @include tablets {
+        font-size: rem(38px);
+        line-height: 1.42;
+        text-transform: none;
+        width: 95%;
+    }
+
+    @include phones {
+        font-size: rem(35px);
+        line-height: 1.42;
+        text-transform: none;
+        width: 95%;
+    }
 }
 
 .atlant__image {
@@ -15,6 +29,17 @@
     width: 80%;
     margin-left: rem(70px);
     margin-bottom: rem(25px);
+
+    @include tablets {
+        margin-left: 0;
+        width: 95%;
+    }
+
+    @include phones {
+        margin-left: 0;
+        width: 95%;
+    }
+    
 }
 
 .atlant__text {

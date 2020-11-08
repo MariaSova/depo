@@ -6,6 +6,10 @@
 
 .computers__title {
     margin-bottom: rem(50px);
+
+    @include tablets {
+        margin-bottom: rem(20px);
+    }
 }
 
 .title {
@@ -16,6 +20,18 @@
     background: linear-gradient(to right, #3759e4, #d297d4);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+
+    @include tablets {
+        font-size: rem(38px);
+        line-height: 1.42;
+        text-transform: none;
+    }
+
+    @include phones {
+        font-size: rem(35px);
+        line-height: 1.42;
+        text-transform: none;
+    }
 }
 
 .decor {
@@ -28,14 +44,56 @@
 
 .computers__content {
     display: flex;
+
+    @include tablets {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    @include phones {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
 }
 
 .one {
     width: 55%;
+
+    @include tablets {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    @include phones {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
 }
 
 .two {
     height: 100%;
+
+    @include tablets {
+        width: 100%;
+        
+    }
+
+    @include phones {
+        width: 100%;
+        
+    }
+
 }
 
 

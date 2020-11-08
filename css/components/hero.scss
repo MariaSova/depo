@@ -12,6 +12,26 @@
     position: relative;
     overflow: hidden;
 
+
+    @include tablets {
+        min-height: rem(600px);
+        margin-top: rem(85px);
+        margin-bottom: rem(50px);
+        display: flex;
+        flex: 1;
+    }
+
+    @include phones {
+        min-height: rem(600px);
+        margin-top: rem(50px);
+        margin-bottom: rem(50px);
+        display: flex;
+        flex: 1;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+
 }
 
 
@@ -19,6 +39,11 @@
     display: flex;
     flex-direction: column;
     
+    @include phones {
+        min-height: rem(300px);
+        margin-top: rem(60px);
+        
+    }
 }
 
 
@@ -28,6 +53,12 @@
     align-items: center;
     
     min-width: rem(550px);
+
+    @include phones {
+        display: flex;
+        flex: 1;
+        min-width: rem(0px);
+    }
 
 }
 
@@ -56,7 +87,14 @@
     overflow: hidden;
     transform: translateX(-100px);
     max-width: rem(574px);
-   
+
+    @include tablets {
+        display: none;
+    }
+
+    @include phones {
+        display: none;
+    }
 
 }
 
@@ -65,4 +103,11 @@
     transform: translateX(100px);
     max-width: rem(612px);
     
+    @include tablets {
+        display: none;
+    }
+
+    @include phones {
+        display: none;
+    }
 }
